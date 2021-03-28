@@ -13,6 +13,7 @@
     "developtest": "concurrently \"(npm run mailserver)\" \"(npm run develop)\"",
     "start": "gatsby develop",
     "build": "gatsby build",
+    "buildwithserver": "concurrently \"(npm run mailserver)\" \"(npm run build)\"",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
