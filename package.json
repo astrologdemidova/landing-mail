@@ -8,11 +8,11 @@
     "gatsby"
   ],
   "scripts": {
-    "mailserver": "node server/index.js",
+    "build": "node server/index.js",
     "develop": "gatsby develop",
     "developtest": "concurrently \"(npm run mailserver)\" \"(npm run develop)\"",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build2": "gatsby build",
     "buildwithserver": "concurrently \"(npm run mailserver)\" \"(npm run build)\"",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
