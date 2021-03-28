@@ -23,10 +23,10 @@ const transporter = nodemailer.createTransport({
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-        user: 'astrologdemidova777@gmail.com',
-        pass: '549astro!*',
+        user: '',
+        pass: '',
     },
-    secure: true, // upgrades later with STARTTLS -- change this based on the PORT
+    secure: true, // upgrades later with STARTTLS -- change this based on the PORT  ASTROLOG_DEMIDOVA
 });
 
 route.post('/text-mail', (req, res) => {
