@@ -11,7 +11,7 @@
     "mailserver": "node server/index.js",
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "node server/index.js",
+    "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },

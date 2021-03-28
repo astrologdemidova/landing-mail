@@ -130,7 +130,7 @@ const IndexPage = () => {
       <LineHeader bgColor='white'>
         до поднятия цен:&nbsp;
         {/* <Moment date={moment().add(4, 'm')} format={"hh:mm:ss"} durationFromNow interval={1000}/> */}
-        <Moment date={moment('2021-03-28 18:00:00')} format={"hh:mm:ss"} durationFromNow interval={1000}></Moment>
+        <Moment date={moment('2021-03-29 12:00:00')} format={"hh:mm:ss"} durationFromNow interval={1000}></Moment>
       </LineHeader>
       <LineHeader bgColor='white'>
         ТАРИФЫ<br />
@@ -146,14 +146,14 @@ const IndexPage = () => {
         НАПИШИТЕ НАМ И МЫ С РАДОСТЬЮ ОТВЕТИМ НА ВСЕ ВАШИ ВОПРОСЫ И ПОМОЖЕМ ВАМ ОПРЕДЕЛИТЬСЯ С ТАРИФОМ!
       </LineHeader>
       <LineHeader bgColor='white'>
-        {/* <CustomButton onClick={() => setShowPopup(prev => !prev)}>
+        <CustomButton onClick={() => setShowPopup(prev => !prev)}>
           ЗАДАТЬ ВОПРОС
-        </CustomButton> */}
-        <a href={'https://wa.me/message/JSDOINY2LABTP1'} target="_blank">
+        </CustomButton>
+        {/* <a href={'https://wa.me/message/JSDOINY2LABTP1'} target="_blank">
           <CustomButton>
             ЗАДАТЬ ВОПРОС
           </CustomButton>
-        </a>
+        </a> */}
       </LineHeader>
 
       <CustomFooter />
