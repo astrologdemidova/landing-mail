@@ -41,7 +41,7 @@ app.post('/api/text-mail', (req, res) => {
     const { to, subject, email, phone } = req.body;
     const mailData = {
         from: 'astrologdemidova777@gmail.com',
-        to: 'sharkercool96@gmail.com',
+        to: 'astrologdemidova@mail.ru',
         subject: 'Новая заявка с сайта astrologdemidova.ru',
         text: `
         Появился вопрос у человека:
